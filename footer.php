@@ -130,7 +130,7 @@
 		.footer-webinar .lightbox-pop p {
 			padding: 0;
 		}
-		body[data-form-style="minimal"] .form-form .minimal-form-input {
+		body[data-form-style="minimal"] form .minimal-form-input {
 	    padding-top: 10px;
 		}
 		@media only screen and (max-width: 768px) {
@@ -149,8 +149,8 @@
 			.footer-webinar-wrapper-right img {
 				width: 200px;
 			}
-			.form-form button[type="submit"],
-			.form-form input[type="button"] {
+			form button[type="submit"],
+			form input[type="button"] {
 		    background-color: red;
 		    padding: 10px 20px;
 			}
@@ -193,12 +193,12 @@
 			</div>
 			<div class="footer-webinar-wrapper-right">
 				<?php if (is_page(6481)) { /* if its page 6481, display this video */ ?>
-					<iframe src="https://player.vimeo.com/video/314624657?autoplay=1&title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe src="https://player.vimeo.com/video/266315184?autoplay=1&title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<?php } else { /* display this image for any other pages */ ?>
 					<img src="https://jenniferwelsh.com/wp-content/themes/jennifer-ch/images/jennifer-webinar-bg.png">
 				<?php } ?>
 			</div>
-			<h3 class="webinar-link"><a href="https://events.genndi.com/register/169105139238455727/6c0b1058b3" target="_blank">Register Now for February 13th!</a></h3>
+			<h3 class="webinar-link"><a href="https://www.eventbrite.com/e/london19-to-the-core-with-practitioner-certification-tickets-55189616629?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing" target="_blank">Register Now for February 13th!</a></h3>
 		</div>
 
 		<div class="lightbox-pop">
@@ -207,7 +207,7 @@
 			<p class="headline size-25">Sign-up below to register for the
 			FREE webinar on February 13th</p>
 
-			<form accept-charset="UTF-8" action="*" class="form-form" method="POST">
+			<form accept-charset="UTF-8" action="https://www.eventbrite.com/e/london19-to-the-core-with-practitioner-certification-tickets-55189616629?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing" class="form-form" method="POST">
 			    <div class="form-field">
 			        <label for="form_field_FirstName">First Name *</label>
 			        <input class="form-field-input" id="form_field_FirstName" name="form_field_FirstName" placeholder="First Name *" type="text" />
